@@ -15,6 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options=>{
 });
 
 builder.Services.AddScoped<IStockReository, StockRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
