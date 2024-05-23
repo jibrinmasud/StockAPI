@@ -140,3 +140,14 @@ C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dl
 C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\xunit.core.dll
+C:\Users\VP\Desktop\C#API\api\bin\Debug\net8.0\xunit.execution.dotnet.dll
