@@ -9,6 +9,7 @@ using api.Interfaces;
 using api.Mappers;
 using api.Models;
 using api.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
