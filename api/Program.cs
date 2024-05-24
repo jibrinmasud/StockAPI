@@ -2,6 +2,7 @@ using api.Data;
 using api.Interfaces;
 using api.Models;
 using api.Repository;
+using api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -54,8 +55,13 @@ options.DefaultSignOutScheme=JwtBearerDefaults.AuthenticationScheme;
 
     };
 });
+//dependency injection for Stock
 builder.Services.AddScoped<IStockReository, StockRepository>();
+//dependency injection for Comments
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+//dependency injection for JWT Token  services 
+builder.Services.AddScoped<ITokenService, TokenService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
