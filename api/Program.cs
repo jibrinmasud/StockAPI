@@ -91,6 +91,8 @@ builder.Services.AddScoped<IStockReository, StockRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 //dependency injection for JWT Token  services 
 builder.Services.AddScoped<ITokenService, TokenService>();
+//depemdency injection for Iproducts
+builder.Services.AddScoped<IPortfolioRepository, PortfolioRepository>();
 
 var app = builder.Build();
 
